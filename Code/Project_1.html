@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head> 
+
+<body>
+    <script src="output/bundle.js" ></script>
+
+    <h2>Bisection Method</h2>
+
+    <p id="demo"></p>
+
+    <div class="Equationdiv">
+        <label for="Equation">Equation:<br></label>
+        <input class="inputEquation" type="text" id="Equation">
+    </div>
+    <div class="Inputdiv">
+        <label for="X1Value">First X Value:<br></label>
+        <input class="inputOther" type="number" id="X1Value">
+    </div>
+    <div class="Inputdiv">
+        <label for="X2Value">Second X Value:<br></label>
+        <input class="inputOther" type="number" id="X2Value">
+    </div>
+    <div class="Inputdiv">
+        <label for="TolearanceValue">Tolerance:<br></label>
+        <input class="inputOther" type="number" id="ToleranceValue">
+    </div>
+    <div>
+        <button class="SubmitButton" onclick="test()">Submit</button>
+    </div>
+   <div class="Outputbox" id="Outputbox">
+        Output:<br>
+   </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.inputEquation
+{
+
+    width:510px;
+    height:30px;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 2px solid black;
+    background-color: rgb(218, 205, 205);
+
+}
+.Equationdiv
+{
+    margin-left: 10px;
+    margin-right:20px;
+}
+.Inputdiv
+{
+    float:left;
+    margin-right:20px;
+    margin-top: 20px;
+}
+.inputOther
+{
+    width:150px;
+    height:30px;
+    margin-left:10px;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 2px solid black;
+    background-color: rgb(218, 205, 205);
+}
+.SubmitButton
+{
+    width:90px;
+    height:30px;
+    background-color: rgb(241, 149, 43);
+}
+.Outputbox
+{
+    margin-top: 100px;
+    margin-left:10px;
+    margin-right:10px;
+    background-clip: border-box;
+    border:1px solid black;
+    padding:10px;
+}
